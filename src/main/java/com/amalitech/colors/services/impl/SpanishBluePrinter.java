@@ -2,8 +2,10 @@ package com.amalitech.colors.services.impl;
 
 import com.amalitech.colors.services.BluePrinter;
 
-public class BluePrinterImpl implements BluePrinter {
+public class SpanishBluePrinter implements BluePrinter {
 
     @Override
-    public String print(){return "blue";}
+    public String print(){
+        return "azul";
+    }
 }
