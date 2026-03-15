@@ -4,7 +4,9 @@ import com.amalitech.colors.services.BluePrinter;
 import com.amalitech.colors.services.ColourPrinter;
 import com.amalitech.colors.services.GreenPrinter;
 import com.amalitech.colors.services.RedPrinter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ColourPrinterImpl implements ColourPrinter {
 
     BluePrinter bluePrinter;
